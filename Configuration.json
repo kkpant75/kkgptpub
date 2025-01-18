@@ -1,0 +1,39 @@
+{
+	"DATABASE": {
+		"MYSQL": [
+			{
+				"SERVER": "127.0.0.1",
+				"NAME": "WORLD",
+				"SCHEMA": "",
+				"TABLE_PREFIX": "City",
+				"DRIVER": "",
+				"AUTH_TYPE": "WINLOGIN",
+				"USERNAME": "root",
+				"PASSWORD": "fromsystem"
+			}
+		]
+	},
+	"PROCESS_LOG": {
+		"LOG_FILE_RETENTION_PERIOD": 10,
+		"LOG_FILE_MAX_FILE_SIZE": 50000000,
+		"PRINT_LOG_MESSGAE_ON_CONSOLE": "YES",
+		"ENABLE_FILE_LOGGING": "YES",
+		"LOG_LEVEL": "WARNING",
+		"LOG_FILE_NAME": "LogForSalesForce_"
+	},
+	"SYSTEM_PARAMETERS": {
+		"LOCAL_FILE_PATH": "C:\\SalesForce-UR\\",
+		"CLEANUP_HISTORICAL_FILES": "NO",
+		"TIMEZONE": "Etc/UTC",
+		"CREDENTIAL": "SYSTEM_ENVIRONMENT",
+		"ENTITY_NAME": "SNOWFLAKE"
+	},
+	"SEARCH_STRING_FOR_INDEX": {
+		"SNOWFLAKE1": "mpa43641",
+		"MSSQL1": "mssqlldb",
+		"MYSQL1": "root",
+		"KAFKA_1": "salesforceTCRM",
+		"FTP_LOCAL": "192.168.1.16",
+		"HDFS_SERARCH_1": "9000"
+	}
+}
