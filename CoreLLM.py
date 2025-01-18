@@ -4,7 +4,7 @@ from Utilities import *
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 def create_connection():
-    #ssh -L 3307:starburst-ur-mysql-db.czajb75xt9ny.us-west-2.rds.amazonaws.com:3306 ubuntu@bastionur
+   
     return DBConnection('MYSQL',0)
 
 def query_llm_prompt(prompt):

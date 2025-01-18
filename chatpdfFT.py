@@ -34,7 +34,7 @@ def main_text(pdf_path, user_query):
     
 if __name__ == "__main__":
     # Example usage
-    pdf_path = "C:\\Users\\Kamlesh\\Downloads\\Kamlesh Pant 0724T.pdf"   
+    pdf_path = "C:\\Users\\Kamlesh\\Downloads\\Kft.pdf"   
     
     while True:
         user_query = input("Enter your query: ")
